@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Практична 2</title>
-    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="./SRC/gokity.gif">
 </head>
 <body style="background-color: #779911; margin: 0 100px; font-size: 1em; color:gold;">
     <h1 style="text-align: center; font-size: 2em;">КБ</h1>
