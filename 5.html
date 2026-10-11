@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Kotliarenko Bogdan">
+        <meta name="keywords" content="web-tech">
+        <meta name="description" content="PR5">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Форми</title>
+        <style type="text/css">
+            body{
+                width: 460px;
+                background-image: url('../SRC/fon.png');
+                background-size:cover;
+                font-family:grotesk, sans-serif;
+                color:#171717;
+                margin: 100px auto;
+            }
+            form{
+                background-color:rgba(255,255,255,0.8);
+                border-radius:25px;
+                border-color:#ff0000;
+                border-width:3px;
+                border-style:solid;
+                padding:0 20px;
+                font-size:16px;
+                font-weight:bold;
+            }
+        </style>
+        <link rel="icon" href="../SRC/gokity.gif">
+    </head>
+    <body>
+        <form name="Списки">
+            <p>Список з можливістю множинного вибору<br>
+                <select name="jobs" multiple size="4">
+                    <option disabled>Ким ви працювали</option>
+                    <option value="programmer">Програміст</option>
+                    <option value="admin">Системний адміністратор</option>
+                    <option value="marketer">Маркетолог</option>
+                    <option value="designer">Дизайнер</option>
+                    <option value="tester">Тестувальник</option>
+                </select>
+            </p>
+            <p>Випадаючий список<br>
+                <select name="years">
+                    <option disabled selected>Скільки років ви працюєте</option>
+                    <option value="1">Менше року</option>
+                    <option value="3">1–3 роки</option>
+                    <option value="5">3–5 років</option>
+                    <option value="6">Понад 5 років</option>
+                </select>
+            </p>
+            <p style="text-align: center"><a href="5.1.html">← На головну</a></p>
+        </form>
+    </body>
+</html>
